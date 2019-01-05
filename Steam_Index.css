@@ -1,0 +1,422 @@
+.Homepage {
+    /*body de la page d'accueil*/
+    margin: 0;
+    background: #181A20;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: url("Fond_Body.png") 0 15px repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    background-color: #181A20;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+#header {
+    margin: 0;
+    width: 100%;
+}
+
+.dessus_menu {
+    background-color: #181A20;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.dessus_menu img {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Barre de navigation */
+ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A6983;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 45px;
+    text-decoration: none;
+    background-color: #4A6983;
+    border-right: 1px solid white;
+}
+
+.menuDroite {
+    border-right: none;
+    border-left: 1px solid white;
+}
+
+li a:hover:not(.active) {
+    background-color: #304455;
+;
+}
+
+.active {
+    background-color: #304455;
+}
+
+/*Boite de présentation des parties*/
+
+/**/
+.presentation {
+    margin-bottom: 80px;
+    background-color: #181A20;
+    position: relative;
+    float: right;
+    top: 60px;
+    width: 80%;
+    height: 200px;
+    color: white;
+    margin-right: 10%;
+    border: 10px solid #4A6983;
+    border-radius: 50px;
+}
+
+.reseau_index {
+    width: 200px;
+    position: fixed;
+    float: right;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top: 2px solid white;
+}
+
+#petit_logo a{
+    padding-left: 20000px;
+}
+
+.Logo_FB {
+    padding-left: 10%;
+    width: 20%;
+}
+
+.Logo_TWITTER {
+    width: 20%;
+}
+
+.boite_vide {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+/**/
+.boite {
+    margin-left: 16%;
+    width: 480px;
+    height: 350px;
+    float: left;
+}
+
+.boite_work {
+    margin-left: 16%;
+    width: 480px;
+    height: 350px;
+    float: left;
+}
+
+.boite_top {
+    width: 100%;
+    height: 13px;
+}
+
+.boite_mid {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.boite_mid_Topic {
+    width: 100%;
+    background-color: #1e2837;
+    border-radius: 8px;
+}
+
+.boite_contenu {
+    background-color: #181A20;
+}
+
+.boite_contenu_work {
+    background-color: #1e2837;
+}
+
+.boite_header {
+    margin-left: 0;
+    background-color: #4A6983;
+    padding-left: 25px;
+}
+
+.boite_texte {
+    width: auto;
+    height: 260px;
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.Homepage .boite_texte {
+    width: auto;
+    height: 260px;
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+element.style {
+    width: 201px;
+    height: 199px;
+    float: right;
+    clear: right;
+    margin-right: 2px;
+    margin-top: -7px;
+}
+
+.boite_link {
+    position: relative;
+    bottom: 60px;
+    height: 0;
+    padding-left: 20px;
+    font-size: 130%;
+    background-color: #4A6983;
+}
+
+.boite_link a {
+    color: #6bb3f2;
+}
+
+.boite_bottom {
+    width: 480px;
+    height: 13px;
+}
+
+/* Logos et Titre */
+.Logo_STEAM { position: relative; top: 2px; left: 1%; height: auto; width: 8%;
+    margin-bottom: 10px; min-width: 90px; z-index: 1; }
+
+.Logo_VALVE {
+    position: relative;
+    top: 20px;
+    float: right;
+    height: auto;
+    width: 25%;
+}
+
+.Titre {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    font-size: 4vw;
+    color: white;
+    margin: 40px;
+}
+
+.reseau {
+    background-color: #181A20;
+    position: relative;
+    float: right;
+    top: 330px;
+    border-radius: 90% 0 0 0;
+    width: 200px;
+    height: auto;
+    color: white;
+}
+
+.presentation h1 {
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    color: #229dbe;
+    text-decoration: underline;
+}
+
+/*modification unique de WORKSHOP.HTML*/
+div#Le_plus_use .boite_work {
+    margin-left: 16%;
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+
+div#Populaires_cette_semaine .boite_work {
+    margin-left: 16%;
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+
+div#Dernieres_sortie .boite_work {
+    margin-left: 16%;
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+
+div#Le_plus_use .boite_texte_Work {
+    height:180px ;
+    background: url(Workshop_Action.png) no-repeat right bottom;
+    background-size:contain;
+    margin: 0 ;
+}
+div#Populaires_cette_semaine .boite_texte_Work {
+    height:180px ;
+    background: url(Workshop_Aimbot.png) no-repeat right bottom;
+    background-size:contain;
+    margin: 0 ;
+}
+div#Dernieres_sortie .boite_texte_Work {
+    height:180px ;
+    background: url(Workshop_Condor.png) no-repeat right bottom;
+    background-size:contain;
+    margin: 0 ;
+}
+div#Logo_workshop{
+    float: right; width: 140px;height: 161px; margin-top: 27px; margin-right: 2em
+}
+
+div#Logo_histoire{
+
+    float: right; width: 145px; height: 109px; margin-top: 83px; margin-right: 2em;
+
+}
+div#Logo_news{
+
+    float: right; width: 140px;height: 161px; margin-top: 27px; margin-right: 2em;
+
+
+}
+div#Logo_chiffres{
+
+    float: right; width: 140px;height: 161px; margin-top: 27px; margin-right: 2em
+
+
+}
+li#case_droite{
+    float:right;
+}
+
+/* responsive*/
+
+@media (max-width: 800px){
+    li {
+        float: none;
+    }
+    li#case_droite{
+        float:none;
+    }
+    .Titre {
+        position: absolute;
+
+        font-size: 6vw;
+        color: white;
+        margin: 40px;
+        top: 10px;
+        left: 60px;
+    }
+    li a {
+
+        border-right:none
+    }
+
+    .menuDroite {
+        border-right: none;
+        border-left:none;
+    }
+    .presentation h1 {
+
+        font-size: 17px;
+
+    }
+    .boite {
+        margin-left: 0;
+        width: 350px;
+    }
+    div#Logo_workshop{
+
+        float:none; width: 90px;height: 90px; margin-top: 27px; margin-right: 5em;
+        padding-left:50px;
+        padding-top:20px;
+
+    }
+    div#Logo_histoire{
+
+        float:none; width: 90px;height: 90px; margin-top: 27px; margin-right: 5em;
+        padding-left:50px;
+        padding-top:20px;
+
+    }
+    div#Logo_news{
+
+        float:none; width: 90px;height: 90px; margin-top: 27px; margin-right: 5em;
+        padding-left:50px;
+        padding-top:20px;
+
+    }
+    div#Logo_chiffres{
+
+        float:none; width: 90px;height: 90px; margin-top: 27px; margin-right: 5em;
+        padding-left:50px;
+        padding-top:20px;
+
+    }
+
+    div#Le_plus_use .boite_work {
+        margin-left: 20px;
+        width: 80%;
+        height: 350px;
+        float: left;
+    }
+
+    div#Populaires_cette_semaine .boite_work {
+        margin-left: 20px;
+        width: 80%;
+        height: 350px;
+        float: left;
+    }
+
+    div#Dernieres_sortie .boite_work {
+        margin-left: 20px;
+        width: 80%;
+        height: 350px;
+        float: left;
+    }
+
+    .boite_texte {
+        padding-left:50px;
+    }
+
+    .boite_link {
+        padding-left: 70px;
+    }
+
+    .Homepage .boite_texte {
+        font-size: 10px;
+    }
+
+    .boite_header {
+        font-size:13px;
+    }
+
+}

@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  background-color: #181A20;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
+
+#header {
+  margin: 0;
+  width: 100%;
+}
+
+.dessus_menu {
+  background-color: #181A20;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.dessus_menu img {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Barre de navigation */
+ul {
+  list-style-type: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4A6983;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 45px;
+  text-decoration: none;
+  background-color: #4A6983;
+  border-right: 1px solid white;
+}
+
+.menuDroite {
+  border-right: none;
+  border-left: 1px solid white;
+}
+
+li a:hover:not(.active) {
+  background-color: #304455;
+  ;
+}
+
+.active {
+  background-color: #304455;
+}
+
+/**/
+.reseau_index {
+  width: 200px;
+  position: fixed;
+  float: right;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top: 2px solid white;
+}
+
+#petit_logo a {
+  padding-left: 20000px;
+}
+
+.Logo_FB {
+  padding-left: 10%;
+  width: 20%;
+}
+
+.Logo_TWITTER {
+  width: 20%;
+}
+
+.boite_vide {
+  width: 100%;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+li#case_droite {
+  float: right;
+}
+
+/* Logos et Titre */
+.Logo_STEAM {
+  position: relative;
+  top: 2px;
+  left: 1%;
+  height: auto;
+  width: 8%;
+  margin-bottom: 10px;
+  min-width: 90px;
+  z-index: 1;
+}
+
+.Logo_VALVE {
+  position: relative;
+  top: 20px;
+  float: right;
+  height: auto;
+  width: 25%;
+}
+
+.Titre {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  font-size: 4vw;
+  color: white;
+  margin: 40px;
+}
+
+.reseau {
+  background-color: #181A20;
+  position: relative;
+  float: right;
+  top: 330px;
+  border-radius: 90% 0 0 0;
+  width: 200px;
+  height: auto;
+  color: white;
+}
+
+/*////////////*/
+article h1 {
+  padding-left: 25px;
+  line-height: 25px;
+  font-size: 25px;
+  background: url(Logo_Steam1.png) no-repeat left bottom;
+  background-size: contain;
+  color: #4A6983;
+  border-bottom: 2px solid #4A6983;
+}
+
+section {
+  padding-top: 25px;
+  padding-right: 55px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+article, aside {
+  text-align: justify;
+  padding: 50px;
+}
+
+article {
+  margin-right: 200px;
+  flex: 3;
+  font-size: 25px;
+}
+
+article p {
+  font-size: 0.8em;
+}
+
+aside {
+  flex: 1.2;
+  position: relative;
+  background-color: #4A6983;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  height: 450px;
+}
+
+.Image_left1 {
+  position: relative;
+  top: 0;
+  right: 8px;
+  height: auto;
+  width: 15%;
+  margin-bottom: 10px;
+  min-width: 90px;
+  z-index: 1;
+}
+
+.Image_left2 {
+  position: relative;
+  top: 0;
+  right: 8px;
+  height: auto;
+  width: 25%;
+  margin-bottom: 10px;
+  min-width: 90px;
+  z-index: 1;
+}
+
+.Image_right {
+  position: relative;
+  top: 0;
+  left: 10px;
+  height: auto;
+  width: 25%;
+  margin-bottom: 10px;
+  min-width: 90px;
+  z-index: 1;
+}
+
+#Gaben {
+  text-align: center;
+}
+
+#Gaben img {
+  border: 3px solid #4A6983;
+}
+
+aside img {
+  margin-right: 5px;
+}
+
+/*responsive*/
+@media (max-width:800px) {
+  li {
+    float: none;
+  }
+
+  li#case_droite {
+    float: none;
+  }
+
+  .Titre {
+    position: absolute;
+    font-size: 6vw;
+    color: white;
+    margin: 40px;
+    top: 10px;
+    left: 60px;
+  }
+
+  li a {
+    border-right: none
+  }
+
+  .createur {
+    visibility: hidden;
+  }
+
+  article {
+    margin-right: 0;
+  }
+
+  article, aside {
+    text-align: right;
+  }
+
+  section {
+    padding-top: 25px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .menuDroite {
+    border-right: none;
+    border-left: none;
+  }
+}

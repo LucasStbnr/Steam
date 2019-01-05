@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  background-color:#181A20;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
+
+#header {
+  margin: 0;
+  width: 100%;
+}
+
+.dessus_menu {
+  background-color: #181A20;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.dessus_menu img {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Barre de navigation */
+ul {
+  list-style-type: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4A6983;
+}
+
+li {
+  float: left;
+}
+
+li#case_droite{
+	float:right;
+}
+
+li a {
+	font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 45px;
+  text-decoration: none;
+  background-color: #4A6983;
+  border-right: 1px solid white;
+}
+
+.menuDroite {
+  border-right: none;
+  border-left: 1px solid white;
+}
+
+li a:hover:not(.active) {
+  background-color: #304455;
+  ;
+}
+
+.active {
+  background-color: #304455;
+}
+
+
+/**/
+
+
+.reseau_index {
+  width: 200px;
+  position: fixed;
+  float: right;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top: 2px solid white;
+  z-index:1;
+}
+
+#petit_logo a{
+padding-left: 20000px;
+}
+
+.Logo_FB {
+  padding-left: 10%;
+  width: 20%;
+}
+
+.Logo_TWITTER {
+  width: 20%;
+}
+
+.boite_vide {
+  width: 100%;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+
+
+/* Logos et Titre */
+.Logo_STEAM { position: relative; top: 2px; left: 1%; height: auto; width: 8%;
+margin-bottom: 10px; min-width: 90px; z-index: 1; }
+
+.Logo_VALVE {
+  position: relative;
+  top: 20px;
+  float: right;
+  height: auto;
+  width: 25%;
+}
+
+.Titre {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  font-size: 4vw;
+  color: white;
+  margin: 40px;
+}
+
+
+/*/////////*/
+
+/* Bannière */
+
+#banniere_image1
+{
+	margin-right:100px;
+    margin-top: 15px;
+    height: 180px;
+	width:800px;
+    border-radius: 5px;
+    background: url('News_steam1.jpg') no-repeat;
+	background-size:cover;
+    position: relative;
+    box-shadow: 0 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	float:left
+}
+#banniere_image2
+{
+
+    margin-top: 15px;
+    height: 180px;
+	width:800px;
+    border-radius: 5px;
+    background: url('News_steam2.jpg') no-repeat;
+	background-size:cover;
+    position: relative;
+    box-shadow: 0 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	float:left;
+
+}
+#banniere_image3
+{
+	margin-right:100px;
+    margin-top: 15px;
+    height: 180px;
+	width:800px;
+    border-radius: 5px;
+    background: url('News_steam3.jpg') no-repeat;
+	background-size:cover;
+    position: relative;
+    box-shadow: 0 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	float:left;
+
+}
+#banniere_image4
+{
+
+    margin-top: 15px;
+    height: 180px;
+	width:800px;
+    border-radius: 5px;
+    background: url('News_steam4.jpg') no-repeat;
+	background-size:cover;
+    position: relative;
+    box-shadow: 0 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	float:left;
+
+}
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 5px 5px;
+    width:100%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color:white;
+    font-size: 15px;
+
+
+
+}
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+	background-color: #4A6983;
+    border: 1px solid #4A6983;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.all_news {
+
+	padding-top:25px;
+	padding-left:100px
+}
+  li#case_droite{
+  	float:right;
+
+
+}
+
+/* responsives */
+
+@media (max-width: 990px){
+
+    li {
+        float: none;
+    }
+
+    li#case_droite{
+        float:none;
+    }
+
+    .Titre {
+      position: absolute;
+      font-size: 6vw;
+      color: white;
+      margin: 40px;
+      top: 10px;
+      left: 60px;
+    }
+
+    li a {
+      border-right:none
+    }
+
+    .menuDroite {
+      border-right: none;
+      border-left:none;
+    }
+
+    .all_news {
+        padding-top:0;
+        padding-left:0;
+    }
+
+    #banniere_image1 {
+        width:100%;
+    }
+
+    #banniere_image2 {
+        width:100%;
+    }
+
+    #banniere_image3 {
+        width:100%;
+    }
+
+    #banniere_image4 {
+        width:100%;
+       margin-bottom:60px;
+    }
+
+    .banniere_description {
+        width:100%;
+        height: 70px;
+    }
+
+    p {
+        width:70%;
+    }
+}
